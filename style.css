@@ -1,0 +1,15 @@
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('midias/background.mp4') center/cover;
+    height: 600px;
+}
+.feature-card {
+    transition: transform 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+.step-card {
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
